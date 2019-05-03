@@ -1,0 +1,57 @@
+.conteiner {
+	width: 100vw;
+	height: 101vh;
+	background-color: #BEBEBE;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.caixa-um {
+	width: 90vw;
+	height: 20vh;
+	background-color: #556B2F;
+	border-radius: 6vw 3vh;
+}
+
+.texto-um {
+	color: #FFE1FF;
+	font-size: 400%;
+}
+
+.caixa-dois {
+	width: 90vw;
+	height: 20vh;
+	background-color: #FFA500;
+	border-radius: 6vw 3vh;
+}
+
+.texto-dois {
+	color: #FFE1FF;
+	font-size: 349%;
+}
+
+.caixa-tres {
+	width: 90vw;
+	height: 20vh;
+	background-color: #1E90FF;
+	border-radius: 6vw 3vh;
+}
+
+.texto-tres {
+	color: #FFE1FF;
+	font-size: 280%;
+}
+
+.caixa-quatro {
+	width: 90vw;
+	height: 20vh;
+	background-color: #FF3030;
+	border-radius: 6vw 3vh;
+}
+
+.texto-quatro {
+	color: #FFE1FF;
+	font-size: 340%;
+}
