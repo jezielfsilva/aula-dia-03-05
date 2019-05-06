@@ -17,7 +17,7 @@
 
 .texto-um {
 	color: #FFE1FF;
-	font-size: 400%;
+	font-size: 158%;
 }
 
 .caixa-dois {
@@ -29,7 +29,7 @@
 
 .texto-dois {
 	color: #FFE1FF;
-	font-size: 349%;
+	font-size: 142%;
 }
 
 .caixa-tres {
@@ -41,7 +41,7 @@
 
 .texto-tres {
 	color: #FFE1FF;
-	font-size: 280%;
+	font-size: 116%;
 }
 
 .caixa-quatro {
@@ -53,5 +53,33 @@
 
 .texto-quatro {
 	color: #FFE1FF;
-	font-size: 340%;
+	font-size: 152%;
+}
+
+
+@media (min-width: 768px) {
+	.conteiner {
+		flex-wrap: wrap;
+	}
+
+	.caixa-um, .caixa-dois, .caixa-tres, .caixa-quatro  {
+		width: 38vw;
+		height: 40vh;
+	}
+
+	.texto-um {
+		font-size: 230%;
+	}
+
+	.texto-dois {
+		font-size: 210%;
+	}
+
+	.texto-tres {
+		font-size: 175%;
+	}
+
+	.texto-quatro {
+		font-size: 222%;
+	}
 }
